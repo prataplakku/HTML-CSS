@@ -1,0 +1,208 @@
+/* *{
+    margin:0;
+    padding:0;
+}
+sets this margin and padding for all
+*/
+body{
+    color: #555555;
+    background-color: #f4f4f4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    /*Same as above*/
+    font: noraml 16px Arial, Helvetica, sans-serif;
+    line-height: 2em;
+    margin: 0;
+}
+.button{
+    background-color: #333;
+    color:#fff;
+    padding: 10px 15px;
+    border: none;
+}
+.button:hover{
+    background-color: red;
+    color: #fff;
+}
+
+.block{
+    float:left;
+    width: 33.33%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.clr{
+    clear:both;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+
+}
+
+a:hover{
+    color: green;
+}
+
+a:active{
+    color:red;
+}
+
+/*
+a:visited{
+    color: brown;
+}
+May work when avtive links are given*/
+.container{
+    width : 80%;
+    margin: auto;
+    /*margin-top: 30px;*/
+    margin-top: 30px;
+}
+
+.box-1{
+    color: #fff;
+    background-color: #333;
+    border-right: 5px red solid;
+    border-bottom: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+
+    /* same as above */
+    border: 5px red solid;
+
+    border-width: 3px;
+    border-top-style: dotted;
+    border-bottom-style: dashed;
+    border-right-style: double;
+    border-bottom-width: 5px;
+
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.box-1 h1{
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.box-2 {
+    border: 3px dotted #ccc;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.categories{
+    border: 1px #ccc solid;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 25px;
+    list-style: square;
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: dotted 1px #333;
+    list-style-image: url('./check.png');
+}
+
+.myForm{
+    padding: 20px;
+}
+
+.myForm .form-group{
+    padding-bottom: 15px;
+}
+
+.myForm label{
+    display: block;
+}
+
+.myForm input[type = "text"], .myForm textarea{
+    width: 100%;
+    padding: 8px;
+}
+
+
+#Main-block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#side-bar{
+    float: right;
+    width: 30%;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #333;
+    color:#fff
+}
+
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+    background-image: url(./light.jpg);
+    background-repeat: repeat;
+    background-position: center top;
+    background-position: 400px 400px ;
+    background-position: center center;
+
+}
+
+
+.p-box h1{
+    position: absolute;
+    top: 100px;
+    right:200px;
+}
+
+.p-box h2{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+
+
+}
+.fixed{
+    position: fixed;
+    top:400px;
+    left:0px;
+}
+
+.itemsList li:first-child{
+    background-color: red;
+}
+
+.itemsList li:last-child{
+    background-color: blue;
+}
+.itemsList li:nth-child(5){
+    background-color: aqua;
+}
+
+.itemsList li:nth-child(even){
+    background-color: yellowgreen;
+}
+
